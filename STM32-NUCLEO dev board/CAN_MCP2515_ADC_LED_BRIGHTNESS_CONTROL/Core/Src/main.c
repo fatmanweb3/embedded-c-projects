@@ -200,7 +200,7 @@ int main(void)
 	  {
 		  uint32_t received_adc = (rx_msg.data[0] << 8) | rx_msg.data[1];
 		  Update_PWM_Brightness(&htim1, TIM_CHANNEL_3, received_adc);
-		  sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+		  sprintf(buf, "Received CAN ID: 0x%03lX, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
 		  UART_Print(buf);
 
 		  for (uint8_t i = 0; i < rx_msg.dlc; i++)

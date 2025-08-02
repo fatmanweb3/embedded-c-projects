@@ -688,7 +688,7 @@ int main(void)
  800074c:	2108      	movs	r1, #8
  800074e:	4819      	ldr	r0, [pc, #100]	@ (80007b4 <main+0x114>)
  8000750:	f7ff ff7a 	bl	8000648 <Update_PWM_Brightness>
-		  sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+		  sprintf(buf, "Received CAN ID: 0x%03lX, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
  8000754:	683a      	ldr	r2, [r7, #0]
  8000756:	793b      	ldrb	r3, [r7, #4]
  8000758:	491f      	ldr	r1, [pc, #124]	@ (80007d8 <main+0x138>)
