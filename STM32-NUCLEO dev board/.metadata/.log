@@ -1,0 +1,27 @@
+!SESSION 2025-08-02 17:23:09.071 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-02 17:23:51.279
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-02 17:23:51.281
+!MESSAGE Log4j2 initialized with config file C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-02 17:23:59.945
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-02 17:59:18.630
+!MESSAGE Indexed 'CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL' (20 sources, 82 headers) in 5.13 sec: 5,042 declarations; 26,639 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0063%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-02 18:07:00.286
+!MESSAGE Indexed 'INTERNAL_LED_PWM' (22 sources, 73 headers) in 6.1 sec: 10,734 declarations; 55,001 references; 30 unresolved inclusions; 1,288 syntax errors; 8,339 unresolved names (11%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-02 18:09:19.876
+!MESSAGE Indexed 'ANALOG_GPIO_PWM' (25 sources, 123 headers) in 4.21 sec: 13,758 declarations; 73,492 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.27%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-02 20:37:25.093
+!MESSAGE Indexed 'SPI_CAN_DOUBLE_MCP2515' (21 sources, 118 headers) in 2.99 sec: 12,201 declarations; 51,693 references; 7 unresolved inclusions; 1,223 syntax errors; 1,459 unresolved names (2.2%)
