@@ -1,251 +1,67 @@
-/*
-    (c) 2016 Microchip Technology Inc. and its subsidiaries. You may use this
-    software and any derivatives exclusively with Microchip products.
+#ifndef MCP2515_H_
+#define MCP2515_H_
 
-    THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER
-    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED
-    WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A
-    PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP PRODUCTS, COMBINATION
-    WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION.
+#include "stm32f4xx_hal.h"
+#include <stdint.h>
 
-    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE,
-    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND
-    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS
-    BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE
-    FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
-    ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
-    THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+// MCP2515 SPI Commands
+#define MCP2515_RESET       0xC0 // 1100 0000
+#define MCP2515_READ        0x03 // 0000 0011
+#define MCP2515_WRITE       0x02 // 0000 0010
+#define MCP2515_RTS_TX0     0x81 // 1000 0001
+#define MCP2515_READ_STATUS 0xA0 // 1010 0000
+#define MCP2515_RX_STATUS   0xB0 // 1011 0000
+#define MCP2515_BIT_MODIFY  0x05 // 0000 0101
 
-    MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE
-    TERMS.
-*/
+// MCP2515 Registers
+#define MCP2515_RXF0SIDH    0x00 // 0000 0000
+#define MCP2515_RXF0SIDL    0x01 // 0000 0001
+#define MCP2515_BFPCTRL     0x0C // 0000 1100
+#define MCP2515_TXRTSCTRL   0x0D // 0000 1101
+#define MCP2515_CANSTAT     0x0E // 0000 1110
+#define MCP2515_CANCTRL     0x0F // 0000 1111
+#define MCP2515_CNF3        0x28 // 0010 1000
+#define MCP2515_CNF2        0x29 // 0010 1001
+#define MCP2515_CNF1        0x2A // 0010 1010
+#define MCP2515_CANINTE     0x2B // 0010 1011
+#define MCP2515_CANINTF     0x2C // 0010 1100
+#define MCP2515_TXB0CTRL    0x30 // 0011 0000
+#define MCP2515_TXB0SIDH    0x31 // 0011 0001
+#define MCP2515_TXB0SIDL    0x32 // 0011 0010
+#define MCP2515_TXB0DLC     0x35 // 0011 0101
+#define MCP2515_TXB0D0      0x36 // 0011 0110
+#define MCP2515_RXB0CTRL    0x60 // 0110 0000
+#define MCP2515_RXB0SIDH    0x61 // 0110 0001
+#define MCP2515_RXB0SIDL    0x62 // 0110 0010
+#define MCP2515_RXB0DLC     0x65 // 0110 0101
+#define MCP2515_RXB0D0      0x66 // 0110 0110
 
-#ifndef __MCP2515_H
-#define	__MCP2515_H
+// MCP2515 Configuration
+#define MCP2515_MODE_NORMAL     0x00 // 0000 0000
+#define MCP2515_MODE_CONFIG     0x80 // 1000 0000
+#define MCP2515_INT_RX0IF       0x01 // 0000 0001
+#define MCP2515_INT_TX0IF       0x04 // 0000 0100
 
-#include <stdbool.h>
-#include "main.h"
+// CAN Message Structure
+typedef struct {
+    uint32_t id;        // Standard ID (11-bit)
+    uint8_t dlc;        // Data Length Code (0-8)
+    uint8_t data[8];    // Data bytes
+} CAN_Message;
 
-/* MCP2515 SPI Instruction Set */
-#define MCP2515_RESET           0xC0
+// MCP2515 Handle Structure
+typedef struct {
+    SPI_HandleTypeDef *hspi;    // SPI handle
+    GPIO_TypeDef *cs_port;      // CS GPIO Port
+    uint16_t cs_pin;            // CS GPIO Pin
+} MCP2515_Handle;
 
-#define MCP2515_READ            0x03
-#define MCP2515_READ_RXB0SIDH   0x90
-#define MCP2515_READ_RXB0D0     0x92
-#define MCP2515_READ_RXB1SIDH   0x94
-#define MCP2515_READ_RXB1D0     0x96
+// Function Prototypes
+void MCP2515_Init(MCP2515_Handle *hcan, uint32_t bitrate);
+void MCP2515_SetMode(MCP2515_Handle *hcan, uint8_t mode);
+void MCP2515_Transmit(MCP2515_Handle *hcan, CAN_Message *msg);
+uint8_t MCP2515_Receive(MCP2515_Handle *hcan, CAN_Message *msg);
+void MCP2515_WriteReg(MCP2515_Handle *hcan, uint8_t reg, uint8_t value);
+uint8_t MCP2515_ReadReg(MCP2515_Handle *hcan, uint8_t reg);
 
-#define MCP2515_WRITE           0x02
-#define MCP2515_LOAD_TXB0SIDH   0x40    /* TX0 ID location */
-#define MCP2515_LOAD_TXB0D0     0x41    /* TX0 Data location */
-#define MCP2515_LOAD_TXB1SIDH   0x42    /* TX1 ID location */
-#define MCP2515_LOAD_TXB1D0     0x43    /* TX1 Data location */
-#define MCP2515_LOAD_TXB2SIDH   0x44    /* TX2 ID location */
-#define MCP2515_LOAD_TXB2D0     0x45    /* TX2 Data location */
-
-#define MCP2515_RTS_TX0         0x81
-#define MCP2515_RTS_TX1         0x82
-#define MCP2515_RTS_TX2         0x84
-#define MCP2515_RTS_ALL         0x87
-#define MCP2515_READ_STATUS     0xA0
-#define MCP2515_RX_STATUS       0xB0
-#define MCP2515_BIT_MOD         0x05
-
-/* MCP25152515 Register Adresses */
-#define MCP2515_RXF0SIDH	0x00
-#define MCP2515_RXF0SIDL	0x01
-#define MCP2515_RXF0EID8	0x02
-#define MCP2515_RXF0EID0	0x03
-#define MCP2515_RXF1SIDH	0x04
-#define MCP2515_RXF1SIDL	0x05
-#define MCP2515_RXF1EID8	0x06
-#define MCP2515_RXF1EID0	0x07
-#define MCP2515_RXF2SIDH	0x08
-#define MCP2515_RXF2SIDL	0x09
-#define MCP2515_RXF2EID8	0x0A
-#define MCP2515_RXF2EID0	0x0B
-#define MCP2515_CANSTAT		0x0E
-#define MCP2515_CANCTRL		0x0F
-
-#define MCP2515_RXF3SIDH	0x10
-#define MCP2515_RXF3SIDL	0x11
-#define MCP2515_RXF3EID8	0x12
-#define MCP2515_RXF3EID0	0x13
-#define MCP2515_RXF4SIDH	0x14
-#define MCP2515_RXF4SIDL	0x15
-#define MCP2515_RXF4EID8	0x16
-#define MCP2515_RXF4EID0	0x17
-#define MCP2515_RXF5SIDH	0x18
-#define MCP2515_RXF5SIDL	0x19
-#define MCP2515_RXF5EID8	0x1A
-#define MCP2515_RXF5EID0	0x1B
-#define MCP2515_TEC		0x1C
-#define MCP2515_REC		0x1D
-
-#define MCP2515_RXM0SIDH	0x20
-#define MCP2515_RXM0SIDL	0x21
-#define MCP2515_RXM0EID8	0x22
-#define MCP2515_RXM0EID0	0x23
-#define MCP2515_RXM1SIDH	0x24
-#define MCP2515_RXM1SIDL	0x25
-#define MCP2515_RXM1EID8	0x26
-#define MCP2515_RXM1EID0	0x27
-#define MCP2515_CNF3		0x28
-#define MCP2515_CNF2		0x29
-#define MCP2515_CNF1		0x2A
-#define MCP2515_CANINTE		0x2B
-#define MCP2515_CANINTF		0x2C
-#define MCP2515_EFLG		0x2D
-
-#define MCP2515_TXB0CTRL	0x30
-#define MCP2515_TXB1CTRL	0x40
-#define MCP2515_TXB2CTRL	0x50
-#define MCP2515_RXB0CTRL	0x60
-#define MCP2515_RXB0SIDH	0x61
-#define MCP2515_RXB1CTRL	0x70
-#define MCP2515_RXB1SIDH	0x71
-
-/* Defines for Rx Status */
-#define MSG_IN_RXB0             0x01
-#define MSG_IN_RXB1             0x02
-#define MSG_IN_BOTH_BUFFERS     0x03
-
-typedef union{
-  struct{
-    unsigned RX0IF      : 1;
-    unsigned RX1IF      : 1;
-    unsigned TXB0REQ    : 1;
-    unsigned TX0IF      : 1;
-    unsigned TXB1REQ    : 1;
-    unsigned TX1IF      : 1;
-    unsigned TXB2REQ    : 1;
-    unsigned TX2IF      : 1;
-  };
-  uint8_t ctrl_status;  
-}ctrl_status_t;
-
-typedef union{
-  struct{
-    unsigned filter     : 3;
-    unsigned msgType    : 2;
-    unsigned unusedBit  : 1;
-    unsigned rxBuffer   : 2;
-  };
-  uint8_t ctrl_rx_status;
-}ctrl_rx_status_t;
-
-typedef union{
-  struct{
-    unsigned EWARN      :1;
-    unsigned RXWAR      :1;
-    unsigned TXWAR      :1;
-    unsigned RXEP       :1;
-    unsigned TXEP       :1;
-    unsigned TXBO       :1;
-    unsigned RX0OVR     :1;
-    unsigned RX1OVR     :1;  
-  };
-  uint8_t error_flag_reg;
-}ctrl_error_status_t;
-
-typedef union{
-  struct{
-    uint8_t RXBnSIDH;
-    uint8_t RXBnSIDL;
-    uint8_t RXBnEID8;
-    uint8_t RXBnEID0;
-    uint8_t RXBnDLC;
-    uint8_t RXBnD0;
-    uint8_t RXBnD1;
-    uint8_t RXBnD2;
-    uint8_t RXBnD3;
-    uint8_t RXBnD4;
-    uint8_t RXBnD5;
-    uint8_t RXBnD6;
-    uint8_t RXBnD7;
-  };
-  uint8_t rx_reg_array[13];
-}rx_reg_t;
-
-/* MCP2515 Registers */
-typedef struct{
-  uint8_t RXF0SIDH;
-  uint8_t RXF0SIDL;
-  uint8_t RXF0EID8;
-  uint8_t RXF0EID0;
-}RXF0;
-
-typedef struct{
-  uint8_t RXF1SIDH;
-  uint8_t RXF1SIDL;
-  uint8_t RXF1EID8;
-  uint8_t RXF1EID0;
-}RXF1;
-
-typedef struct{
-  uint8_t RXF2SIDH;
-  uint8_t RXF2SIDL;
-  uint8_t RXF2EID8;
-  uint8_t RXF2EID0;
-}RXF2;
-
-typedef struct{
-  uint8_t RXF3SIDH;
-  uint8_t RXF3SIDL;
-  uint8_t RXF3EID8;
-  uint8_t RXF3EID0;
-}RXF3;
-
-typedef struct{
-  uint8_t RXF4SIDH;
-  uint8_t RXF4SIDL;
-  uint8_t RXF4EID8;
-  uint8_t RXF4EID0;
-}RXF4;
-
-typedef struct{
-  uint8_t RXF5SIDH;
-  uint8_t RXF5SIDL;
-  uint8_t RXF5EID8;
-  uint8_t RXF5EID0;
-}RXF5;
-
-typedef struct{
-  uint8_t RXM0SIDH;
-  uint8_t RXM0SIDL;
-  uint8_t RXM0EID8;
-  uint8_t RXM0EID0;
-}RXM0;
-
-typedef struct{
-  uint8_t RXM1SIDH;
-  uint8_t RXM1SIDL;
-  uint8_t RXM1EID8;
-  uint8_t RXM1EID0;
-}RXM1;
-
-typedef struct{
-  uint8_t tempSIDH;
-  uint8_t tempSIDL;
-  uint8_t tempEID8;
-  uint8_t tempEID0;
-}id_reg_t;
-
-/* Functions */
-bool MCP2515_Initialize(void);
-bool MCP2515_SetConfigMode(void);
-bool MCP2515_SetNormalMode(void);
-bool MCP2515_SetSleepMode(void);
-void MCP2515_Reset(void);
-uint8_t MCP2515_ReadByte (uint8_t address);
-void MCP2515_ReadRxSequence(uint8_t instruction, uint8_t *data, uint8_t length);
-void MCP2515_WriteByte(uint8_t address, uint8_t data);
-void MCP2515_WriteByteSequence(uint8_t startAddress, uint8_t endAddress, uint8_t *data);
-void MCP2515_LoadTxSequence(uint8_t instruction, uint8_t *idReg, uint8_t dlc, uint8_t *data);
-void MCP2515_LoadTxBuffer(uint8_t instruction, uint8_t data);
-void MCP2515_RequestToSend(uint8_t instruction);
-uint8_t MCP2515_ReadStatus(void);
-uint8_t MCP2515_GetRxStatus(void);
-void MCP2515_BitModify(uint8_t address, uint8_t mask, uint8_t data);
-
-#endif
+#endif /* MCP2515_H_ */

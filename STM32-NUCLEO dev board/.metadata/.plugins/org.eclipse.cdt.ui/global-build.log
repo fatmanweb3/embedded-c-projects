@@ -1,0 +1,1444 @@
+23:18:55 **** Clean-only build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 clean 
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.su
+rm -rf ./Core/Startup/startup_stm32f446retx.d ./Core/Startup/startup_stm32f446retx.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su
+rm -rf ANALOG_GPIO_PWM.elf ANALOG_GPIO_PWM.list ANALOG_GPIO_PWM.map default.size.stdout
+ 
+23:18:56 **** Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f446retx.d" -MT"Core/Startup/startup_stm32f446retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f446retx.o" "../Core/Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:7: warning: unused variable 'brightness' [-Wunused-variable]
+  116 |   int brightness = 0;
+      |       ^~~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "ANALOG_GPIO_PWM.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\1-20 task\ANALOG_GPIO_PWM\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ANALOG_GPIO_PWM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ANALOG_GPIO_PWM.elf
+ 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+arm-none-eabi-objdump -h -S ANALOG_GPIO_PWM.elf  > "ANALOG_GPIO_PWM.list"
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+Finished building: ANALOG_GPIO_PWM.list
+ 
+23:19:02 **** Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f446retx.d" -MT"Core/Startup/startup_stm32f446retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f446retx.o" "../Core/Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/mcp2515.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mcp2515.d" -MT"Core/Src/mcp2515.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mcp2515.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+../Core/Src/main.c:30:1: error: unknown type name 'MCP2515_Handle'
+   30 | MCP2515_Handle hcan_tx =
+      | ^~~~~~~~~~~~~~
+../Core/Src/main.c:32:17: error: field name not in record or union initializer
+   32 |                 .hspi = &hspi3,
+      |                 ^
+../Core/Src/main.c:32:17: note: (near initialization for 'hcan_tx')
+../Core/Src/main.c:32:26: error: 'hspi3' undeclared here (not in a function)
+   32 |                 .hspi = &hspi3,
+      |                          ^~~~~
+../Core/Src/main.c:33:17: error: field name not in record or union initializer
+   33 |                 .cs_port = GPIOD,
+      |                 ^
+../Core/Src/main.c:33:17: note: (near initialization for 'hcan_tx')
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:156,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h:1124:29: warning: excess elements in scalar initializer
+ 1124 | #define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+      |                             ^
+../Core/Src/main.c:33:28: note: in expansion of macro 'GPIOD'
+   33 |                 .cs_port = GPIOD,
+      |                            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h:1124:29: note: (near initialization for 'hcan_tx')
+ 1124 | #define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+      |                             ^
+../Core/Src/main.c:33:28: note: in expansion of macro 'GPIOD'
+   33 |                 .cs_port = GPIOD,
+      |                            ^~~~~
+../Core/Src/main.c:34:17: error: field name not in record or union initializer
+   34 |                 .cs_pin = GPIO_PIN_2
+      |                 ^
+../Core/Src/main.c:34:17: note: (near initialization for 'hcan_tx')
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:87:36: warning: excess elements in scalar initializer
+   87 | #define GPIO_PIN_2                 ((uint16_t)0x0004)  /* Pin 2 selected    */
+      |                                    ^
+../Core/Src/main.c:34:27: note: in expansion of macro 'GPIO_PIN_2'
+   34 |                 .cs_pin = GPIO_PIN_2
+      |                           ^~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:87:36: note: (near initialization for 'hcan_tx')
+   87 | #define GPIO_PIN_2                 ((uint16_t)0x0004)  /* Pin 2 selected    */
+      |                                    ^
+../Core/Src/main.c:34:27: note: in expansion of macro 'GPIO_PIN_2'
+   34 |                 .cs_pin = GPIO_PIN_2
+      |                           ^~~~~~~~~~
+../Core/Src/main.c:38:1: error: unknown type name 'MCP2515_Handle'
+   38 | MCP2515_Handle hcan_rx =
+      | ^~~~~~~~~~~~~~
+../Core/Src/main.c:40:17: error: field name not in record or union initializer
+   40 |                 .hspi = &hspi1,
+      |                 ^
+../Core/Src/main.c:40:17: note: (near initialization for 'hcan_rx')
+../Core/Src/main.c:40:26: error: 'hspi1' undeclared here (not in a function)
+   40 |                 .hspi = &hspi1,
+      |                          ^~~~~
+../Core/Src/main.c:41:17: error: field name not in record or union initializer
+   41 |                 .cs_port = GPIOB,
+      |                 ^
+../Core/Src/main.c:41:17: note: (near initialization for 'hcan_rx')
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h:1122:29: warning: excess elements in scalar initializer
+ 1122 | #define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+      |                             ^
+../Core/Src/main.c:41:28: note: in expansion of macro 'GPIOB'
+   41 |                 .cs_port = GPIOB,
+      |                            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h:1122:29: note: (near initialization for 'hcan_rx')
+ 1122 | #define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+      |                             ^
+../Core/Src/main.c:41:28: note: in expansion of macro 'GPIOB'
+   41 |                 .cs_port = GPIOB,
+      |                            ^~~~~
+../Core/Src/main.c:42:17: error: field name not in record or union initializer
+   42 |                 .cs_pin = GPIO_PIN_6
+      |                 ^
+../Core/Src/main.c:42:17: note: (near initialization for 'hcan_rx')
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:91:36: warning: excess elements in scalar initializer
+   91 | #define GPIO_PIN_6                 ((uint16_t)0x0040)  /* Pin 6 selected    */
+      |                                    ^
+../Core/Src/main.c:42:27: note: in expansion of macro 'GPIO_PIN_6'
+   42 |                 .cs_pin = GPIO_PIN_6
+      |                           ^~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:91:36: note: (near initialization for 'hcan_rx')
+   91 | #define GPIO_PIN_6                 ((uint16_t)0x0040)  /* Pin 6 selected    */
+      |                                    ^
+../Core/Src/main.c:42:27: note: in expansion of macro 'GPIO_PIN_6'
+   42 |                 .cs_pin = GPIO_PIN_6
+      |                           ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:154:11: warning: implicit declaration of function 'MCP2515_Init' [-Wimplicit-function-declaration]
+  154 |           MCP2515_Init(&hcan_tx, 500000);
+      |           ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:19:06 **** Clean-only build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 clean 
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.su
+rm -rf ./Core/Startup/startup_stm32f446retx.d ./Core/Startup/startup_stm32f446retx.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su
+rm -rf INTERNAL_LED_PWM.elf INTERNAL_LED_PWM.list INTERNAL_LED_PWM.map default.size.stdout
+ 
+23:19:06 **** Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f446retx.d" -MT"Core/Startup/startup_stm32f446retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f446retx.o" "../Core/Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "INTERNAL_LED_PWM.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\1-20 task\INTERNAL_LED_PWM\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="INTERNAL_LED_PWM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: INTERNAL_LED_PWM.elf
+ 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+arm-none-eabi-objdump -h -S INTERNAL_LED_PWM.elf  > "INTERNAL_LED_PWM.list"
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+Finished building: INTERNAL_LED_PWM.list
+ 
+23:19:10 **** Clean-only build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 clean 
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.su
+rm -rf ./Core/Startup/startup_stm32f446retx.d ./Core/Startup/startup_stm32f446retx.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su
+rm -rf SPI_CAN_DOUBLE_MCP2515.elf SPI_CAN_DOUBLE_MCP2515.list SPI_CAN_DOUBLE_MCP2515.map default.size.stdout
+ 
+23:19:11 **** Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f446retx.d" -MT"Core/Startup/startup_stm32f446retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f446retx.o" "../Core/Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:263:43: warning: unknown conversion type character '\x03' in format [-Wformat=]
+  263 |         sprintf(buf, "Received CAN ID: 0x%\03X, DLC: %d, Data: \r\n", rx_msg.id, rx_msg.dlc);
+      |                                           ^~~
+../Core/Src/main.c:263:55: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  263 |         sprintf(buf, "Received CAN ID: 0x%\03X, DLC: %d, Data: \r\n", rx_msg.id, rx_msg.dlc);
+      |                                                      ~^               ~~~~~~~~~
+      |                                                       |                     |
+      |                                                       int                   uint32_t {aka long unsigned int}
+      |                                                      %ld
+../Core/Src/main.c:263:22: warning: too many arguments for format [-Wformat-extra-args]
+  263 |         sprintf(buf, "Received CAN ID: 0x%\03X, DLC: %d, Data: \r\n", rx_msg.id, rx_msg.dlc);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "SPI_CAN_DOUBLE_MCP2515.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\1-20 task\SPI_CAN_DOUBLE_MCP2515\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI_CAN_DOUBLE_MCP2515.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SPI_CAN_DOUBLE_MCP2515.elf
+ 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+arm-none-eabi-objdump -h -S SPI_CAN_DOUBLE_MCP2515.elf  > "SPI_CAN_DOUBLE_MCP2515.list"
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+Finished building: SPI_CAN_DOUBLE_MCP2515.list
+ 
+23:20:55 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+23:20:56 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/main.c:34:26: error: 'hspi3' undeclared here (not in a function)
+   34 |                 .hspi = &hspi3,
+      |                          ^~~~~
+../Core/Src/main.c:42:26: error: 'hspi1' undeclared here (not in a function)
+   42 |                 .hspi = &hspi1,
+      |                          ^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:20:57 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+23:20:58 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+23:21:16 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:34:26: error: 'hspi3' undeclared here (not in a function)
+   34 |                 .hspi = &hspi3,
+      |                          ^~~~~
+../Core/Src/main.c:42:26: error: 'hspi1' undeclared here (not in a function)
+   42 |                 .hspi = &hspi1,
+      |                          ^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:21:42 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:34:25: error: 'hspi3' undeclared here (not in a function)
+   34 |                 .hspi = hspi3,
+      |                         ^~~~~
+../Core/Src/main.c:42:25: error: 'hspi1' undeclared here (not in a function)
+   42 |                 .hspi = hspi1,
+      |                         ^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:22:41 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+23:22:41 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:34:26: error: 'hspi3' undeclared here (not in a function)
+   34 |                 .hspi = &hspi3,
+      |                          ^~~~~
+../Core/Src/main.c:42:26: error: 'hspi1' undeclared here (not in a function)
+   42 |                 .hspi = &hspi1,
+      |                          ^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:22:42 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+23:22:43 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+23:22:48 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+23:22:49 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:30:5: warning: implicit declaration of function 'SystemClock_Config'; did you mean 'SysTick_Config'? [-Wimplicit-function-declaration]
+   30 |     SystemClock_Config();
+      |     ^~~~~~~~~~~~~~~~~~
+      |     SysTick_Config
+../Core/Src/main.c:31:5: warning: implicit declaration of function 'MX_GPIO_Init'; did you mean 'HAL_GPIO_Init'? [-Wimplicit-function-declaration]
+   31 |     MX_GPIO_Init();
+      |     ^~~~~~~~~~~~
+      |     HAL_GPIO_Init
+../Core/Src/main.c:32:5: warning: implicit declaration of function 'MX_SPI1_Init'; did you mean 'HAL_SPI_Init'? [-Wimplicit-function-declaration]
+   32 |     MX_SPI1_Init();
+      |     ^~~~~~~~~~~~
+      |     HAL_SPI_Init
+../Core/Src/main.c:33:5: warning: implicit declaration of function 'MX_SPI3_Init'; did you mean 'HAL_SPI_Init'? [-Wimplicit-function-declaration]
+   33 |     MX_SPI3_Init();
+      |     ^~~~~~~~~~~~
+      |     HAL_SPI_Init
+../Core/Src/main.c:34:5: warning: implicit declaration of function 'MX_USART2_UART_Init' [-Wimplicit-function-declaration]
+   34 |     MX_USART2_UART_Init();
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:59:49: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   59 |             sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                              ~~~^                    ~~~~~~~~~
+      |                                                 |                          |
+      |                                                 unsigned int               uint32_t {aka long unsigned int}
+      |                                              %03lX
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:11:(.data.hcan_tx+0x0): undefined reference to `hspi3'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:17:(.data.hcan_rx+0x0): undefined reference to `hspi1'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `UART_Print':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:26:(.text.UART_Print+0x28): undefined reference to `huart2'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:30:(.text.main+0xa): undefined reference to `SystemClock_Config'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:31:(.text.main+0xe): undefined reference to `MX_GPIO_Init'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:32:(.text.main+0x12): undefined reference to `MX_SPI1_Init'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:33:(.text.main+0x16): undefined reference to `MX_SPI3_Init'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:34:(.text.main+0x1a): undefined reference to `MX_USART2_UART_Init'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:22:50 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+23:22:51 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+23:23:20 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+23:23:21 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:33:26: error: 'hspi3' undeclared here (not in a function)
+   33 |                 .hspi = &hspi3,
+      |                          ^~~~~
+../Core/Src/main.c:41:26: error: 'hspi1' undeclared here (not in a function)
+   41 |                 .hspi = &hspi1,
+      |                          ^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:23:22 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+23:23:22 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+23:24:30 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+23:24:31 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  21196	    116	   2300	  23612	   5c3c	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+23:24:32 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+23:24:33 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+23:25:53 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  21196	    116	   2300	  23612	   5c3c	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+23:26:28 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  21196	    116	   2300	  23612	   5c3c	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+23:29:06 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  21216	    116	   2300	  23632	   5c50	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+23:46:53 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:157:11: warning: implicit declaration of function 'UART_Print' [-Wimplicit-function-declaration]
+  157 |           UART_Print("Sending CAN message...\r\n");
+      |           ^~~~~~~~~~
+../Core/Src/main.c:164:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  164 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:157:(.text.main+0x50): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:165:(.text.main+0x98): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:168:(.text.main+0xc4): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:170:(.text.main+0xde): undefined reference to `UART_Print'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:47:18 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+23:47:19 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:157:(.text.main+0x50): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:165:(.text.main+0x98): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:168:(.text.main+0xc4): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:170:(.text.main+0xde): undefined reference to `UART_Print'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:47:20 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+23:47:20 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+23:47:23 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:157:(.text.main+0x50): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:165:(.text.main+0x98): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:168:(.text.main+0xc4): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:170:(.text.main+0xde): undefined reference to `UART_Print'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:48:23 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:164:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  164 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+../Core/Src/main.c:168:27: warning: implicit declaration of function 'UART_Print' [-Wimplicit-function-declaration]
+  168 |                           UART_Print(buf);
+      |                           ^~~~~~~~~~
+../Core/Src/main.c:170:19: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  170 |                   print("\r\n");
+      |                   ^~~~~
+      |                   printf
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:168:(.text.main+0xc4): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:170:(.text.main+0xde): undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:48:31 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:168:27: warning: implicit declaration of function 'UART_Print' [-Wimplicit-function-declaration]
+  168 |                           UART_Print(buf);
+      |                           ^~~~~~~~~~
+../Core/Src/main.c:170:19: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  170 |                   print("\r\n");
+      |                   ^~~~~
+      |                   printf
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:168:(.text.main+0xc4): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:170:(.text.main+0xde): undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:49:02 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:170:19: warning: implicit declaration of function 'prints'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  170 |                   prints("\r\n");
+      |                   ^~~~~~
+      |                   printf
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:170:(.text.main+0xde): undefined reference to `prints'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+23:49:14 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+23:50:09 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+23:51:50 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+23:55:26 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:01:01 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:01:02 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:164:93: error: 'CAN_Message' has no member named 'Wdlc'; did you mean 'dlc'?
+  164 |                   printf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.Wdlc);
+      |                                                                                             ^~~~
+      |                                                                                             dlc
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+00:01:03 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:01:03 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:01:06 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:03:50 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:03:50 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:164:93: error: 'CAN_Message' has no member named 'Wdlc'; did you mean 'dlc'?
+  164 |                   printf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.Wdlc);
+      |                                                                                             ^~~~
+      |                                                                                             dlc
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+00:03:51 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:03:52 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:04:25 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:04:25 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+00:04:27 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:04:27 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:06:36 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:06:36 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+00:06:37 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:06:37 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:06:41 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+00:11:18 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:11:19 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+00:11:20 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:11:21 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:13:26 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:13:27 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:164:53: warning: unknown conversion type character '\x03' in format [-Wformat=]
+  164 |                   sprintf(buf, "Received CAN ID: 0x%\03X, DLC: %d, Data: \r\n", rx_msg.id, rx_msg.dlc);
+      |                                                     ^~~
+../Core/Src/main.c:164:65: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  164 |                   sprintf(buf, "Received CAN ID: 0x%\03X, DLC: %d, Data: \r\n", rx_msg.id, rx_msg.dlc);
+      |                                                                ~^               ~~~~~~~~~
+      |                                                                 |                     |
+      |                                                                 int                   uint32_t {aka long unsigned int}
+      |                                                                %ld
+../Core/Src/main.c:164:32: warning: too many arguments for format [-Wformat-extra-args]
+  164 |                   sprintf(buf, "Received CAN ID: 0x%\03X, DLC: %d, Data: \r\n", rx_msg.id, rx_msg.dlc);
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:165:19: warning: implicit declaration of function 'UART_Print' [-Wimplicit-function-declaration]
+  165 |                   UART_Print(buf);
+      |                   ^~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:165:(.text.main+0x98): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:168:(.text.main+0xc4): undefined reference to `UART_Print'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/sudharsan/Desktop/career/embedded/embedded C_C++/embedded c projects/embedded c projects/STM32-NUCLEO dev board/CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL/Debug/../Core/Src/main.c:170:(.text.main+0xde): undefined reference to `UART_Print'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+00:13:28 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:13:29 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:14:56 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:14:57 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+00:14:58 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:14:59 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:15:01 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+00:20:11 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:20:11 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+00:20:13 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:20:13 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:20:16 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23468	    128	   2296	  25892	   6524	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+00:31:41 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:31:42 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  163 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  21836	    116	   2292	  24244	   5eb4	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+00:31:43 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:31:44 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:32:06 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21836	    116	   2292	  24244	   5eb4	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+00:51:33 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:51:34 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:165:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  165 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  22268	    116	   2292	  24676	   6064	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+00:51:36 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:51:37 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:56:16 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:56:16 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:178:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  178 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+../Core/Src/main.c:160:20: warning: unused variable 'pwm_pulse_value' [-Wunused-variable]
+  160 |           uint32_t pwm_pulse_value;
+      |                    ^~~~~~~~~~~~~~~
+../Core/Src/main.c:159:20: warning: variable 'adc_value' set but not used [-Wunused-but-set-variable]
+  159 |           uint32_t adc_value;
+      |                    ^~~~~~~~~
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23188	    116	   2292	  25596	   63fc	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+00:56:18 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:56:18 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:56:22 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23188	    116	   2292	  25596	   63fc	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+00:59:24 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+00:59:25 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:180:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  180 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+../Core/Src/main.c:160:20: warning: unused variable 'pwm_pulse_value' [-Wunused-variable]
+  160 |           uint32_t pwm_pulse_value;
+      |                    ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  25684	    128	   2296	  28108	   6dcc	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+00:59:26 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+00:59:26 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+00:59:54 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25684	    128	   2296	  28108	   6dcc	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+01:00:50 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:186:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  186 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+../Core/Src/main.c:166:20: warning: unused variable 'pwm_pulse_value' [-Wunused-variable]
+  166 |           uint32_t pwm_pulse_value;
+      |                    ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  25720	    128	   2296	  28144	   6df0	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+01:04:19 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:186:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  186 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+../Core/Src/main.c:166:20: warning: unused variable 'pwm_pulse_value' [-Wunused-variable]
+  166 |           uint32_t pwm_pulse_value;
+      |                    ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  25716	    128	   2296	  28140	   6dec	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+01:07:27 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25716	    128	   2296	  28140	   6dec	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+01:11:25 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+01:11:26 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:186:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  186 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+../Core/Src/main.c:166:20: warning: unused variable 'pwm_pulse_value' [-Wunused-variable]
+  166 |           uint32_t pwm_pulse_value;
+      |                    ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  25720	    128	   2296	  28144	   6df0	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+01:11:28 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+01:11:28 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+01:11:36 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25720	    128	   2296	  28144	   6df0	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+01:29:01 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+01:29:01 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:203:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  203 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23368	    132	   2356	  25856	   6500	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+01:29:03 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+01:29:03 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+01:29:06 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23368	    132	   2356	  25856	   6500	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+01:31:44 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:203:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  203 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23364	    132	   2356	  25852	   64fc	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+01:33:15 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+make -j4 all 
+arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19540	    104	   2120	  21764	   5504	ANALOG_GPIO_PWM.elf
+Finished building: default.size.stdout
+ 
+01:33:15 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:203:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  203 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23364	    132	   2356	  25852	   64fc	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 
+01:33:17 **** Incremental Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+01:33:17 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+01:33:25 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23364	    132	   2356	  25852	   64fc	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+01:35:25 **** Incremental Build of configuration Debug for project CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:203:55: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  203 |                   sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: ", rx_msg.id, rx_msg.dlc);
+      |                                                    ~~~^                    ~~~~~~~~~
+      |                                                       |                          |
+      |                                                       unsigned int               uint32_t {aka long unsigned int}
+      |                                                    %03lX
+arm-none-eabi-gcc -o "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+ 
+arm-none-eabi-size  CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf 
+arm-none-eabi-objdump -h -S CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf  > "CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  23360	    132	   2356	  25848	   64f8	CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_MCP2515_ADC_LED_BRIGHTNESS_CONTROL.list
+ 

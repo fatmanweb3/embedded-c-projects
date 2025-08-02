@@ -1,0 +1,10 @@
+01:33:17 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+
+01:33:18 Build Finished. 0 errors, 0 warnings. (took 375ms)
+
