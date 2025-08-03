@@ -1,4 +1,4 @@
-01:33:15 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
+20:50:01 **** Incremental Build of configuration Debug for project ANALOG_GPIO_PWM ****
 make -j4 all 
 arm-none-eabi-size  ANALOG_GPIO_PWM.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  ANALOG_GPIO_PWM.elf
 Finished building: default.size.stdout
  
 
-01:33:15 Build Finished. 0 errors, 0 warnings. (took 375ms)
+20:50:02 Build Finished. 0 errors, 0 warnings. (took 595ms)
 

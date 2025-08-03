@@ -1,0 +1,10 @@
+20:50:08 **** Incremental Build of configuration Debug for project CAN-BUS_WITH_ADC_PWM_MPU6050_DHT11 ****
+make -j4 all 
+arm-none-eabi-size  CAN-BUS_WITH_ADC_PWM_MPU6050_DHT11.elf 
+   text	   data	    bss	    dec	    hex	filename
+  50684	    492	   2628	  53804	   d22c	CAN-BUS_WITH_ADC_PWM_MPU6050_DHT11.elf
+Finished building: default.size.stdout
+ 
+
+20:50:08 Build Finished. 0 errors, 0 warnings. (took 424ms)
+

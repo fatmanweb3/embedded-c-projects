@@ -1,0 +1,9 @@
+../Core/Src/mcp2515.c:5:13:MCP2515_Select	16	static
+../Core/Src/mcp2515.c:9:13:MCP2515_Deselect	16	static
+../Core/Src/mcp2515.c:14:6:MCP2515_WriteReg	24	static
+../Core/Src/mcp2515.c:22:9:MCP2515_ReadReg	24	static
+../Core/Src/mcp2515.c:33:13:MCP2515_Reset	24	static
+../Core/Src/mcp2515.c:42:6:MCP2515_SetMode	16	static
+../Core/Src/mcp2515.c:51:6:MCP2515_Init	16	static
+../Core/Src/mcp2515.c:78:6:MCP2515_Transmit	24	static
+../Core/Src/mcp2515.c:92:9:MCP2515_Receive	32	static

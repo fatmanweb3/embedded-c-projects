@@ -351,3 +351,30 @@ java.io.IOException: Error opening \\.\COM3 (5)
 	at org.eclipse.remote.serial.core.SerialPortConnection.getCommandShell(SerialPortConnection.java:97)
 	at org.eclipse.remote.internal.console.TerminalConsoleConnector$1.run(TerminalConsoleConnector.java:140)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-08-03 13:56:12.922 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-03 13:56:44.849
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-03 13:56:44.851
+!MESSAGE Log4j2 initialized with config file C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\embedded c projects\embedded c projects\STM32-NUCLEO dev board\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-03 13:57:00.840
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-03 14:48:00.530
+!MESSAGE Indexed 'I2C_MPU6050' (22 sources, 119 headers) in 4.28 sec: 12,511 declarations; 58,178 references; 6 unresolved inclusions; 1,226 syntax errors; 1,529 unresolved names (2.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-03 15:55:34.763
+!MESSAGE Indexed 'UART_DHT11' (22 sources, 123 headers) in 3.46 sec: 13,423 declarations; 68,280 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.29%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-03 16:17:41.587
+!MESSAGE Indexed 'CAN-BUS_WITH_ADC_PWM_MPU6050_DHT11' (20 sources, 82 headers) in 1.81 sec: 5,042 declarations; 26,639 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0063%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-03 19:33:43.043
+!MESSAGE Indexed 'CAN-BUS_WITH_ADC_PWM_MPU6050_DHT11' (26 sources, 91 headers) in 1.54 sec: 7,806 declarations; 60,698 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0029%)

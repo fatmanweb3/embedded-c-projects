@@ -92,7 +92,8 @@ static void MX_TIM1_Init(void);
 // uart transmission function.
 
 // Debug print function
-void UART_Print(const char *str) {
+void UART_Print(const char *str)
+{
     HAL_UART_Transmit(&huart2, (uint8_t *)str, strlen(str), HAL_MAX_DELAY);
 }
 

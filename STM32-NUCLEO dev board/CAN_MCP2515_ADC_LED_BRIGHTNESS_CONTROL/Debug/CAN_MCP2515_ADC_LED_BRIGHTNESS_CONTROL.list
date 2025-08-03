@@ -439,12 +439,12 @@ Disassembly of section .text:
  80005ea:	bf00      	nop
 
 080005ec <UART_Print>:
-/* USER CODE BEGIN PFP */
 
 // uart transmission function.
 
 // Debug print function
-void UART_Print(const char *str) {
+void UART_Print(const char *str)
+{
  80005ec:	b580      	push	{r7, lr}
  80005ee:	b082      	sub	sp, #8
  80005f0:	af00      	add	r7, sp, #0

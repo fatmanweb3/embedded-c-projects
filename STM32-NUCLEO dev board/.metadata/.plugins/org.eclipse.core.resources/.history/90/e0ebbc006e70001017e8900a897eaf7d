@@ -1,0 +1,18 @@
+/*
+ * mpu6050.h
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: sudharsan
+ */
+
+#ifndef INC_MPU6050_H_
+#define INC_MPU6050_H_
+
+#include "stm32f4xx_hal.h"
+#include <stdint.h>
+
+
+
+
+
+#endif /* INC_MPU6050_H_ */
